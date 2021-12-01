@@ -1,9 +1,9 @@
 # Magento 2 Sentry Logger
 
-This Magento 2 module integrates the [Sentry sdk](https://github.com/getsentry/sentry-php) into magento 2. Depending on the log level configured in the backend of magento 2, notifications and errors can be send to sentry.
+This Magento 2.x module integrates the [Sentry sdk](https://github.com/getsentry/sentry-php) into magento 2. Depending on the log level configured in the backend of magento 2, notifications and errors can be send to sentry.
 
 ## Installation
-- `composer require simonechinaglia/magento2-sentry`
+- `composer require simonechinaglia/sentry-magento2`
 - `bin/magento module:enable SimoneChinaglia_Sentry`
 - `bin/magento setup:upgrade`
 - `bin/magento setup:di:compile`
@@ -41,7 +41,7 @@ Next to that there are some configuration options under Stores > Configuration >
 The module is tested on Magento version 2.3.x & 2.4.x with sentry sdk version 2.x. Magento 2.1.x is not supported by us anymore, feel free to fork this project or make a pull request.
 
 ## Ideas, bugs or suggestions?
-Please create a [issue](https://github.com/simonechinaglia/magento2-sentry/issues) or a [pull request](https://github.com/simonechinaglia/magento2-sentry/pulls).
+Please create a [issue](https://github.com/Simone-Chinaglia/sentry-magento2/issues) or a [pull request](https://github.com/Simone-Chinaglia/sentry-magento2/pulls).
 
 ## About us
 We’re a innovative development agency from Italy building awesome websites, webshops and web applications with Laravel and Magento. Check out our website [simonechinaglia.net](https://www.simonechinaglia.net) and our [open source projects](https://github.com/simonechinaglia).
@@ -51,4 +51,4 @@ We’re a innovative development agency from Italy building awesome websites, we
 
 ---
 
-<a href="https://www.simonechinaglia.net" title="SimoneChinaglia"><img src="https://raw.githubusercontent.com/simonechinaglia/art/master/simonechinaglia-logo.png" width="200px" alt="SimoneChinaglia logo"></a>
+<a href="https://www.simonechinaglia.net" title="SimoneChinaglia"><img src="https://simonechinaglia.net/wp-content/uploads/2020/12/logosa.svg" width="200px" alt="SimoneChinaglia logo"></a>
